@@ -2,21 +2,15 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-
-
-
-
 /// Regular font family
 /// @type List
 $text-font-stack: "Poppins", sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
-
-
-
-
+$code-font-stack:
+  "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco",
+  monospace !default;
 
 /// Copy text color
 /// @type Color
@@ -37,7 +31,6 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// Dark grey
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
-
 
 //Brakpoints
 $bp-tablet: 768px;
