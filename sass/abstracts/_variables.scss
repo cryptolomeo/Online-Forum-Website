@@ -12,27 +12,28 @@ $code-font-stack:
   "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco",
   monospace !default;
 
-/// Copy text color
-/// @type Color
-$text-color: rgb(34, 34, 34) !default;
 
-/// Main brand color
+/// pink
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$pink: #DB2A6B !default;
 
-/// Light grey
+/// White
 /// @type Color
-$light-grey: rgb(237, 237, 237) !default;
+$white: #FFFFFF !default;
 
-/// Medium grey
+/// Gray
 /// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
+$gray: #ABABAB !default;
 
-/// Dark grey
+/// Dark
 /// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
+$dark: #2B2D38 !default;
 
-//Brakpoints
+/// Icon bg
+/// @type Color
+$icon-bg: #FFFFFF40 !default;
+
+//Breakpoints
 $bp-tablet: 768px;
 $bp-tablet-horizontal: 1024px;
 $bp-desktop: 1200px;

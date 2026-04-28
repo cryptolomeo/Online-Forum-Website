@@ -1,5 +1,17 @@
-@use "../abstracts";
+@use "../abstracts" as *;
 
 /**
  * Basic typography style for copy text
  */
+html *{
+  font-family: "Poppins", sans-serif;
+  color: $white;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 0%;
+ }
