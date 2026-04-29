@@ -11,7 +11,9 @@
   
   🔒 Static frontend (ready to connect to any API or backend)
 
+
 🛠️ Tech Stack
+
   🔻​Semantic HTML5
 
   🔻​Sass (SCSS)
