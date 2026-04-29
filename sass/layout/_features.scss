@@ -1,0 +1,29 @@
+@use "../abstracts/variables" as *;
+.features {
+  display:flex;
+  justify-content: space-between;
+  max-width: 68%;
+  padding-bottom: 30px;
+
+  &__item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  &__image{
+    max-width: 45px;
+    background-color: $icon-bg;
+    padding: 9px;
+    border-radius: 11px;
+
+  }
+
+  &__text{
+    display: block;
+    max-width: 40px;
+    font-size: 0.7rem;
+    color:$white;
+  }
+}

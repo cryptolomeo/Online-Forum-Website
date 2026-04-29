@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
 body.page {
   background-color: $dark;
+  overflow: clip;
 }

@@ -1,0 +1,13 @@
+.decoration {
+overflow: visible;
+position: relative;
+
+  &__image {
+    width:105%;
+    height: auto;
+    top: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+  }
+}

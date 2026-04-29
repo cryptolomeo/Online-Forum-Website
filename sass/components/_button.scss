@@ -1,4 +1,31 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
-@use "../abstracts";
+@use "../abstracts/" as *;
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  font-size: 0.9rem;
+
+  &__item {}
+
+  &__item--pink {
+    @include button--pink();
+  }
+
+  &__item--text{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    color: $white;
+    font-weight: 300;
+
+
+  }
+
+  &__arrow {
+    padding-top: 5px;
+  }
+}

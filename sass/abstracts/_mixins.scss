@@ -28,3 +28,10 @@
     }
   }
 }
+
+@mixin button--pink(){
+  background-color: $pink;
+  border-radius: 16px 16px 16px 0;
+  color: $white;
+  padding: 13px 40px;
+}
