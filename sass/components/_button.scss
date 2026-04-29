@@ -21,7 +21,14 @@
     text-decoration: underline;
     color: $white;
     font-weight: 300;
-
+    transition: all .5s ease;
+    &:hover {
+      translate: 0 -3px;
+      text-shadow:  0 0 3px #FF0000;
+      svg path{
+        filter: drop-shadow(0 0 3px #FF0000);
+      }
+    }
 
   }
 

@@ -1,3 +1,4 @@
+@use "../abstracts/variables" as *;
 .nav-bar {
 width:50%;
 display: flex;
@@ -14,10 +15,34 @@ display: flex;
     display: flex;
     height: 100%;
   }
+
   &__link{
     display: flex;
     height: 100%;
     align-items: center;
+    transition: all .5s ease;
+    position: relative;
+    &:hover {
+      color: $white;
+      translate: 0 -2px;
+      text-shadow:  0 0 3px #FF0000;
+
+      &::before{
+        filter: drop-shadow(0 0 3px #ff0000);
+      }
+    }
   }
+}
+
+
+.active::before {
+        content: '';
+        width: 50%;
+        height: 2px;
+        background-color: $pink;
+        bottom: 5px;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
 
 }

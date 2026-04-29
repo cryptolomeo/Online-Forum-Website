@@ -34,4 +34,11 @@
   border-radius: 16px 16px 16px 0;
   color: $white;
   padding: 13px 40px;
+  transition: all .5s ease;
+  &:hover{
+    background-color: #db16169f;
+    translate: 0 -2px;
+    //box-shadow: -2px 2px 8px 0px rgba(255, 255, 255, 0.51);
+    filter: drop-shadow(0 0 6px #ff0000);
+  }
 }
